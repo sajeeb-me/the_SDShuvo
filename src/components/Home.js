@@ -62,12 +62,12 @@ const Home = () => {
                             <p className='flex items-center'>
                                 <span className='text-xl mr-2'><AiFillLinkedin /></span>
                                 <a
-                                    href="https://www.linkedin.com/in/sdshuvo98/"
+                                    href="https://www.linkedin.com/in/sdshuvo/"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="transition-colors duration-300 hover:text-sky-700"
                                 >
-                                    linkedin.com/in/sdshuvo98
+                                    LinkedIn
                                 </a>
                             </p>
 
@@ -80,7 +80,7 @@ const Home = () => {
                                     rel="noreferrer"
                                     className="transition-colors duration-300 hover:text-sky-700"
                                 >
-                                    github.com/sdshuvo98
+                                    GitHub
                                 </a>
                             </p>
                         </div>
@@ -109,7 +109,7 @@ const Home = () => {
                             </div>
                         </div>
                         <a href='#project' >
-                            <button className='flex justify-center items-center bg-sky-700 px-5 py-4 text-white rounded-lg font-semibold uppercase tracking-wide hover:bg-sky-800'>
+                            <button className='flex justify-center items-center bg-sky-700 px-5 py-4 text-white rounded-lg font-semibold uppercase tracking-wide transition-colors duration-300 hover:bg-sky-800'>
                                 Recent Projects
                                 <span className='ml-3 text-lg'><BsArrowDownCircle /></span>
                             </button>
