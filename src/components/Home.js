@@ -14,18 +14,25 @@ const Home = () => {
     const projects = [
         {
             id: 1,
+            name: "CARTS",
+            description: "This project is for Car Parts Manufacturer who manufacture the parts of Car.",
+            img: "https://i.ibb.co/QKBKDWY/CARTS.png",
+            link: "https://carts-68435.web.app/"
+        },
+        {
+            id: 2,
             name: "Auto Ment",
             description: "This is a website for inventory management, which will help to manage all inventories",
             img: "https://i.ibb.co/0MJPGB5/AutoMent.png",
             link: "https://automent-4fd77.web.app/"
         },
-        {
-            id: 2,
-            name: "Traveeel",
-            description: "Traveeel is a website for passionate travelers. Who want to travel all over the world.",
-            img: "https://i.ibb.co/JBPvkg1/Traveeel.png",
-            link: "https://traveeel-7ce5d.web.app/"
-        },
+        // {
+        //     id: 2,
+        //     name: "Traveeel",
+        //     description: "Traveeel is a website for passionate travelers. Who want to travel all over the world.",
+        //     img: "https://i.ibb.co/JBPvkg1/Traveeel.png",
+        //     link: "https://traveeel-7ce5d.web.app/"
+        // },
         {
             id: 3,
             name: "Coin Kinbo",
