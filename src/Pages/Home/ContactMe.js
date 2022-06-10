@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactMe = () => {
     return (
-        <section>
+        <section id='contact'>
             <div className='text-center'>
                 <h1 className='text-3xl lg:text-4xl font-bold'>Contact Me</h1>
                 <p className='mt-4 text-base text-gray-600 md:text-lg'>Please fill this form and give your information <br className="hidden md:block" /> I will contact you very soon. </p>

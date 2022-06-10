@@ -9,7 +9,6 @@ import JsIcon from '../../assets/icons/js.png';
 import ReactIcon from '../../assets/icons/react.png';
 import ExpressJsIcon from '../../assets/icons/expressjs-icon.png';
 import MongodbIcon from '../../assets/icons/mongodb.png';
-import Resume from '../../assets/resume/sajeeb-das-shuvo-resume.pdf'
 
 const Banner = () => {
     return (
@@ -82,17 +81,12 @@ const Banner = () => {
                         </div>
                     </div>
                 </div>
-                <div className='flex gap-5'>
-                    <a href='#project' >
-                        <button className='flex justify-center items-center bg-sky-700 px-5 py-4 text-white rounded-lg font-semibold uppercase tracking-wide transition-colors duration-300 hover:bg-sky-800'>
-                            Recent Projects
-                            <span className='ml-3 text-lg'><BsArrowDownCircle /></span>
-                        </button>
-                    </a>
-                    <a href={Resume} download='pdf'>
-                        <button className='flex justify-center items-center bg-sky-700 px-5 py-4 text-white rounded-lg font-semibold uppercase tracking-wide transition-colors duration-300 hover:bg-sky-800'>Download Resume</button>
-                    </a>
-                </div>
+                <a href='#project' >
+                    <button className='flex justify-center items-center bg-sky-700 px-5 py-4 text-white rounded-lg font-semibold uppercase tracking-wide transition-colors duration-300 hover:bg-sky-800'>
+                        Recent Projects
+                        <span className='ml-3 text-lg'><BsArrowDownCircle /></span>
+                    </button>
+                </a>
             </div>
             {/* image  */}
             <div className='p-5 lg:p-16 order-1 lg:order-2'>

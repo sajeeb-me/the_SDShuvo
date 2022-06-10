@@ -1,38 +1,15 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 
 
 const Projects = () => {
-    const projects = [
-        {
-            id: 1,
-            name: "CARTS",
-            description: "This project is for Car Parts Manufacturer who manufacture the parts of Car.",
-            img: "https://i.ibb.co/QKBKDWY/CARTS.png",
-            link: "https://carts-68435.web.app/"
-        },
-        {
-            id: 2,
-            name: "Auto Ment",
-            description: "This is a website for inventory management, which will help to manage all inventories",
-            img: "https://i.ibb.co/0MJPGB5/AutoMent.png",
-            link: "https://automent-4fd77.web.app/"
-        },
-        // {
-        //     id: 2,
-        //     name: "Traveeel",
-        //     description: "Traveeel is a website for passionate travelers. Who want to travel all over the world.",
-        //     img: "https://i.ibb.co/JBPvkg1/Traveeel.png",
-        //     link: "https://traveeel-7ce5d.web.app/"
-        // },
-        {
-            id: 3,
-            name: "Coin Kinbo",
-            description: "This is a coin buying website where user can buy coin whatever they want",
-            img: "https://i.ibb.co/8MQ96Mw/Coin-Kinbo.png",
-            link: "https://coin-kinbo.web.app/"
-        }
-    ]
+    const [projects, setProjects] = useState()
+    useEffect(() => {
+        fetch('projects.json')
+            .then(res => res.json())
+            .then(data => setProjects(data))
+    }, [])
+
     return (
         <section className='py-20' id='project'>
             <div className='text-center'>
@@ -41,7 +18,7 @@ const Projects = () => {
             </div>
             <section className='my-10 grid grid-cols-1 lg:grid-cols-3 gap-5'>
                 {
-                    projects.map(project =>
+                    projects?.map(project =>
                         <div key={project.id} className="max-w-xl bg-white border border-sky-700 rounded-xl shadow-xl">
                             <div className="px-5 pt-5">
                                 <img src={project.img} alt="Shoes" className="rounded-xl" />
