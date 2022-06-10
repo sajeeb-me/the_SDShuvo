@@ -14,12 +14,12 @@ const Details = () => {
             })
     }, [id])
 
-    const { name, description, img, mockup, link, clientSiteLink, serverSiteLink, Technologies, about, projectDetails } = selectedProjects;
+    const { name, description, mockup, link, clientSiteLink, serverSiteLink, Technologies, about, projectDetails } = selectedProjects;
 
     return (
         <section className='px-4 lg:px-20 my-10'>
             <div>
-                <h1 className='text-center text-2xl lg:text-4xl font-bold'>{name}</h1>
+                <h1 className='text-center text-2xl lg:text-4xl font-extrabold'>{name}</h1>
                 <p className='my-5'><span className='font-medium'>Description :</span> {description}</p>
                 <img src={mockup} alt="" />
 
@@ -62,7 +62,7 @@ const Details = () => {
                     <h1 className='text-xl font-bold text-sky-700'>List of Technologies :</h1>
                     <div className='flex gap-4 flex-wrap my-5'>
                         {
-                            Technologies?.map(technologie => <p className='border p-2 rounded-md bg-gray-50 text-sm lg:text-base'>{technologie}</p>)
+                            Technologies?.map(technology => <p className='border p-2 rounded-md bg-gray-50 text-sm lg:text-base'>{technology}</p>)
                         }
                     </div>
                 </section>
@@ -81,7 +81,7 @@ const Details = () => {
                     <ul className='my-5 list-disc list-inside space-y-3'>
                         {
                             projectDetails?.map(detail =>
-                                <div className='lg:w-3/4 mx-auto'>
+                                <div className='lg:w-3/4 mx-auto even:text-right'>
                                     <h1 className='text-xl lg:text-7xl font-semibold mt-20 mb-1 lg:-mb-2 lg:opacity-20'>{detail.name}</h1>
                                     <img className='rounded-xl shadow-xl' src={detail.img} alt="" />
                                 </div>)
