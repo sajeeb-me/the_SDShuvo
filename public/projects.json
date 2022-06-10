@@ -2,22 +2,171 @@
     {
         "id": 1,
         "name": "CARTS",
-        "description": "This project is for Car Parts Manufacturer who manufacture the parts of Car.",
+        "description": "A full-stack responsive project for Car Parts Manufacturer",
         "img": "https://i.ibb.co/QKBKDWY/CARTS.png",
-        "link": "https://carts-68435.web.app/"
+        "mockup": "https://i.ibb.co/fkj4Lnq/mockup.png",
+        "link": "https://carts-68435.web.app/",
+        "clientSiteLink": "https://github.com/sdshuvo98/carts-client",
+        "serverSiteLink": "https://github.com/sdshuvo98/carts-server",
+        "Technologies": [
+            "ReactJs",
+            "NodeJs",
+            "ExpressJs",
+            "MongoDB",
+            "Firebase",
+            "Stripe",
+            "Mailgun",
+            "JWT",
+            "Tailwind CSS",
+            "React Query",
+            "React Hook Form"
+        ],
+        "about": [
+            "Implemented Card Payment Method, Email Notification and stored all data at MongoDB",
+            "Developed an Admin portal to manage all orders, all products, add products, and make an admin",
+            "Developed a User portal to manage their profile, orders, and make payments",
+            "Admin Credentials will be found in the README.me file on the Client Site Github link",
+            "In Home route you will get the overview about our site. You wil find total Eight sections there. Header, Banner (where Title, Image, Description, Price and one Button included), Available Parts (user will find first 6 parts here and also user can purchase any parts from here), Our Business Summary (user will see the business summary here), Upcoming Arrival (user will see the upcoming parts here and also can prebook), What our Customers say (user will see the customers reviews here), Our Latest Blogs (user will see the latest blog here) and Footer",
+            "In Blogs section you will find the answers of 6 Questions"
+        ],
+        "projectDetails": [
+            {
+                "name": "Home Page",
+                "img": "https://i.ibb.co/QKBKDWY/CARTS.png"
+            },
+            {
+                "name": "Business Summary",
+                "img": "https://i.ibb.co/wWk96nm/business-summary.png"
+            },
+            {
+                "name": "Upcoming Arrival",
+                "img": "https://i.ibb.co/m8jLSz1/upcoming-arrival.png"
+            },
+            {
+                "name": "Make Payment",
+                "img": "https://i.ibb.co/8MvkMPg/make-payment.png"
+            },
+            {
+                "name": "My Orders Dashboard",
+                "img": "https://i.ibb.co/prF5L5M/dashboard-my-orders.png"
+            },
+            {
+                "name": "Manage All Orders",
+                "img": "https://i.ibb.co/H7vWvtz/manage-all-orders.png"
+            },
+            {
+                "name": "Full Page",
+                "img": "https://i.ibb.co/F7zwPn5/full-page.png"
+            }
+        ]
     },
     {
         "id": 2,
         "name": "Auto Ment",
-        "description": "This is a website for inventory management, which will help to manage all inventories",
+        "description": "A full-stack responsive project for Car Dealers to manage stocks",
         "img": "https://i.ibb.co/0MJPGB5/AutoMent.png",
-        "link": "https://automent-4fd77.web.app/"
+        "mockup": "https://i.ibb.co/StvTKcT/mockup.png",
+        "link": "https://automent-4fd77.web.app/",
+        "clientSiteLink": "https://github.com/sdshuvo98/automent-client",
+        "serverSiteLink": "https://github.com/sdshuvo98/automent-server",
+        "Technologies": [
+            "ReactJs",
+            "NodeJs",
+            "ExpressJs",
+            "MongoDB",
+            "Firebase",
+            "JWT",
+            "Tailwind CSS",
+            "React Hook Form"
+        ],
+        "about": [
+            "Landing page designed for showcasing and updating new inventories",
+            "Developed a User portal for managing, updating, and adding Inventories",
+            "Stored data at MongoDB",
+            "In Home route you will get the overview about our site. You wil find total Six sections there. Header, Banner (where Title, Image and one Button included), Your Inventories (user will find first 6 inventories here and also user will get one update button to update inventories and at below Manage inventories button included to manage all inventories), Statistic (user will get total sells, users, stocks, this year sells here), Most popular (here user will get the most popular car from inventories) and Footer",
+            "In Blogs section you will find the answers of 4 Questions"
+        ],
+        "projectDetails": [
+            {
+                "name": "Home Page",
+                "img": "https://i.ibb.co/0MJPGB5/AutoMent.png"
+            },
+            {
+                "name": "Most Popular Car",
+                "img": "https://i.ibb.co/6JRFbXH/most-popular-car.png"
+            },
+            {
+                "name": "Manage All Inventories",
+                "img": "https://i.ibb.co/F0hqjXF/manage-all-inventories.png"
+            },
+            {
+                "name": "Blogs",
+                "img": "https://i.ibb.co/nLdMgGP/blogs.png"
+            },
+            {
+                "name": "My Inventory",
+                "img": "https://i.ibb.co/2hnQPxP/my-inventory.png"
+            },
+            {
+                "name": "Add One Inventory",
+                "img": "https://i.ibb.co/wwqMGsD/add-one-inventory.png"
+            },
+            {
+                "name": "Full Page",
+                "img": "https://i.ibb.co/yk8frBP/full-page.png"
+            }
+        ]
     },
     {
         "id": 3,
         "name": "Coin Kinbo",
-        "description": "This is a coin buying website where user can buy coin whatever they want",
+        "description": "A full-stack responsive project for coin seller where user can buy coin",
         "img": "https://i.ibb.co/8MQ96Mw/Coin-Kinbo.png",
-        "link": "https://coin-kinbo.web.app/"
+        "mockup": "https://i.ibb.co/gZdZTfH/mockup.png",
+        "link": "https://coin-kinbo.web.app/",
+        "clientSiteLink": "https://github.com/sdshuvo98/coin-kinbo",
+        "Technologies": [
+            "ReactJs",
+            "Firebase",
+            "JWT",
+            "Tailwind CSS"
+        ],
+        "about": [
+            "Landing page designed for showcasing all coins",
+            "Developed a User portal for ordering, viewing details of coins and purchasing coins",
+            "Stored data at Local Storage",
+            "In Home route you will get the list of all coins and from there you can have a look in the details of any coin by clicking on details button and if any user want to purchase any coin, can click add to cart and after that user and click on the cart button which user will find at the navbar.",
+            "Cart section designed in two part, on one side all summery are displayed and on right side receipt is displayed"
+        ],
+        "projectDetails": [
+            {
+                "name": "Home Page",
+                "img": "https://i.ibb.co/8MQ96Mw/Coin-Kinbo.png"
+            },
+            {
+                "name": "Coin Details",
+                "img": "https://i.ibb.co/j5nDs1c/details.png"
+            },
+            {
+                "name": "Search Coin",
+                "img": "https://i.ibb.co/jWsPcZx/search-coin.png"
+            },
+            {
+                "name": "Order Summary & Receipt",
+                "img": "https://i.ibb.co/dmt6thc/carts.png"
+            },
+            {
+                "name": "Login Page",
+                "img": "https://i.ibb.co/qRQ7PBB/login-page.png"
+            },
+            {
+                "name": "Manage All Orders",
+                "img": "https://i.ibb.co/B4Kr01L/register.png"
+            },
+            {
+                "name": "Full Page",
+                "img": "https://i.ibb.co/ryqjkMX/full-page.png"
+            }
+        ]
     }
 ]

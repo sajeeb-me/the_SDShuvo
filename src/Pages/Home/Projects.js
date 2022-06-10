@@ -1,14 +1,12 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import { useNavigate } from 'react-router-dom';
+import useProjects from '../../hooks/useProjects';
 
 
 
 const Projects = () => {
-    const [projects, setProjects] = useState()
-    useEffect(() => {
-        fetch('projects.json')
-            .then(res => res.json())
-            .then(data => setProjects(data))
-    }, [])
+    const navigate = useNavigate();
+    const [projects] = useProjects();
 
     return (
         <section className='py-20' id='project'>
@@ -26,9 +24,17 @@ const Projects = () => {
                             <div className="items-center text-center px-2 my-2">
                                 <h2 className="text-2xl font-semibold">{project.name}</h2>
                                 <p className='my-3'>{project.description}</p>
-                                <button className="my-5">
-                                    <a href={project.link} target="_blank" rel='noreferrer' role="button" className="bg-sky-700 px-8 py-4 text-white rounded-lg font-semibold uppercase tracking-wide hover:bg-sky-800">Visit Project</a>
-                                </button>
+                                <div className='flex justify-center gap-5 my-10'>
+                                    <button
+                                        onClick={() => navigate(`/details/${project.id}`)}
+                                        className="border border-sky-700 px-6 py-3 text-sm hover:text-white rounded-lg font-semibold uppercase tracking-wide hover:bg-sky-800"
+                                    >
+                                        View Details
+                                    </button>
+                                    <button>
+                                        <a href={project.link} target="_blank" rel='noreferrer' role="button" className="border border-sky-700 bg-sky-700 px-6 py-3 text-sm text-white rounded-lg font-semibold uppercase tracking-wide hover:bg-sky-800">Visit Project</a>
+                                    </button>
+                                </div>
                             </div>
                         </div>
                     )
