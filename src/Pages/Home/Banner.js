@@ -14,11 +14,12 @@ const Banner = () => {
     return (
         <section className='grid lg:grid-cols-2 items-center'>
             <div className='order-2 lg:order-1'>
-                <h1 className='text-2xl lg:text-4xl font-serif'>
+                <h1 className='text-xl lg:text-2xl font-serif'>
                     Hello, My name is
                     <br />
                     <span className='font-bold text-4xl lg:text-6xl text-sky-700'>Sajeeb Das Shuvo</span>
                 </h1>
+                <p className='text-3xl font-semibold font-serif opacity-50'>I am a Junior Web Developer</p>
                 <div className='my-5 text-lg'>
                     <p className='flex items-center'>
                         <span className='text-xl mr-2'><MdMarkEmailRead /></span>
