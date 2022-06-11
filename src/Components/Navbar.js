@@ -6,10 +6,10 @@ const navItems = [
     <Link to='/' className='font-medium tracking-wide'>Home</Link>,
     <Link to='/blogs' className='font-medium tracking-wide'>Blogs</Link>,
     <li>
-        <a href='#about' className='font-medium tracking-wide' >About me</a>
+        <a href='/#about' className='font-medium tracking-wide' >About me</a>
     </li>,
     <li>
-        <a href='#contact' className='font-medium tracking-wide' >Contact me</a>
+        <a href='/#contact' className='font-medium tracking-wide' >Contact me</a>
     </li>,
     <li>
         <a href={Resume} download='sajeeb-das-shuvo-resume'>
