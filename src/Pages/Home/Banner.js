@@ -19,7 +19,7 @@ const Banner = () => {
                     <br />
                     <span className='font-bold text-4xl lg:text-6xl text-sky-700'>Sajeeb Das Shuvo</span>
                 </h1>
-                <p className='text-3xl font-semibold font-serif opacity-50'>I am a Junior Web Developer</p>
+                <p className='text-3xl font-semibold font-serif opacity-50'>I am a Web Developer</p>
                 <div className='my-5 text-lg'>
                     <p className='flex items-center'>
                         <span className='text-xl mr-2'><MdMarkEmailRead /></span>

@@ -16,7 +16,7 @@ const Projects = () => {
             </div>
             <section className='my-10 grid grid-cols-1 lg:grid-cols-3 gap-5'>
                 {
-                    projects?.map(project =>
+                    projects.slice(0, 3)?.map(project =>
                         <div key={project.id} className="max-w-xl bg-white border border-sky-700 rounded-xl shadow-xl">
                             <div className="px-5 pt-5">
                                 <img src={project.img} alt="Shoes" className="rounded-xl" />

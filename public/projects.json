@@ -1,6 +1,66 @@
 [
     {
         "id": 1,
+        "name": "CoinKinbo",
+        "description": "A full stack mobile responsive project for Coin seller",
+        "img": "https://i.ibb.co/Cs4ZYWx/Coin-Kinbo.png",
+        "mockup": "https://i.ibb.co/6DmvZWd/mockup.png",
+        "link": "https://coinkinbo-bd.web.app/",
+        "clientSiteLink": "https://github.com/sdshuvo98/CoinKinbo.com",
+        "serverSiteLink": "https://github.com/sdshuvo98/CoinKinbo.server",
+        "Technologies": [
+            "ReactJs",
+            "NodeJs",
+            "ExpressJs",
+            "MongoDB",
+            "Firebase",
+            "Stripe",
+            "JWT",
+            "ContextAPI",
+            "Tailwind CSS",
+            "React Query",
+            "React Hook Form"
+        ],
+        "about": [
+            "Implemented Card Payment Method using Stripe.",
+            "Executed ContextAPI to avoid prop-drilling.",
+            "Set up MongoDB to stored all data.",
+            "Developed an Admin portal to manage all orders, and, make an admin.",
+            "Developed a User portal to manage their profile, orders, and make payments."
+        ],
+        "projectDetails": [
+            {
+                "name": "Home Page",
+                "img": "https://i.ibb.co/Cs4ZYWx/Coin-Kinbo.png"
+            },
+            {
+                "name": "Market News",
+                "img": "https://i.ibb.co/9cBHCqS/news.png"
+            },
+            {
+                "name": "My Cart",
+                "img": "https://i.ibb.co/D8FjPV8/cart.png"
+            },
+            {
+                "name": "Make Payment",
+                "img": "https://i.ibb.co/dpcjZqR/make-payment.png"
+            },
+            {
+                "name": "Purchased History",
+                "img": "https://i.ibb.co/8DyXFTk/purchased-history.png"
+            },
+            {
+                "name": "Manage All Orders",
+                "img": "https://i.ibb.co/GRzHBfb/manage-all-orders.png"
+            },
+            {
+                "name": "Full Page",
+                "img": "https://i.ibb.co/RCcGXDP/full-page.png"
+            }
+        ]
+    },
+    {
+        "id": 2,
         "name": "CARTS",
         "description": "A full-stack responsive project for Car Parts Manufacturer",
         "img": "https://i.ibb.co/QKBKDWY/CARTS.png",
@@ -61,7 +121,7 @@
         ]
     },
     {
-        "id": 2,
+        "id": 3,
         "name": "Auto Ment",
         "description": "A full-stack responsive project for Car Dealers to manage stocks",
         "img": "https://i.ibb.co/0MJPGB5/AutoMent.png",
@@ -118,7 +178,7 @@
         ]
     },
     {
-        "id": 3,
+        "id": 4,
         "name": "Coin Kinbo",
         "description": "A full-stack responsive project for coin seller where user can buy coin",
         "img": "https://i.ibb.co/8MQ96Mw/Coin-Kinbo.png",
@@ -160,7 +220,7 @@
                 "img": "https://i.ibb.co/qRQ7PBB/login-page.png"
             },
             {
-                "name": "Manage All Orders",
+                "name": "Register Page",
                 "img": "https://i.ibb.co/B4Kr01L/register.png"
             },
             {
